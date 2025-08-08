@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Royal Resort</title>
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="css/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/glightbox.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar bg-light-subtle fixed-top navbar-expand-lg" id="navbar-example2">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="image/logo.jpg" class="img-fluid logo_main" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header pb-0">
+              <h5 class="offcanvas-title opacity-0" id="offcanvasNavbarLabel">
+                Offcanvas
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body pt-0 align-items-center">
+              <ul class="navbar-nav justify-content-end flex-grow-1">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#service">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#video">Video</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn btn-primary ms-lg-3" href="#contact">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -0%" data-bs-smooth-scroll="true" class="scrollspy-example"  tabindex="0">
+      <section class="hero-sec">
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel carousel-light slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+             <button
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000">
+              <img src="image/slide-1.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption">
+                <h5>Bilury Royal Resort</h5>
+                <p>
+                  Ut amet omittam pri. Natum oportere abhorreant pri no, vis ei
+                  feugait vulputate, ea imperdiet constituam his. Est at laudem
+                  feugait, ad quas similique eos. Meis iriure id eos, an his
+                  wisi labitur.
+                </p>
+                <a href="#" class="btn btn-primary">Booking Now</a>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="image/slide-2.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption">
+                <h5>Bilury Royal Resort</h5>
+                <p>
+                  Ut amet omittam pri. Natum oportere abhorreant pri no, vis ei
+                  feugait vulputate, ea imperdiet constituam his. Est at laudem
+                  feugait, ad quas similique eos. Meis iriure id eos, an his
+                  wisi labitur.
+                </p>
+                <a href="#" class="btn btn-primary">Booking Now</a>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="image/slide-3.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption">
+                <h5>Bilury Royal Resort</h5>
+                <p>
+                  Ut amet omittam pri. Natum oportere abhorreant pri no, vis ei
+                  feugait vulputate, ea imperdiet constituam his. Est at laudem
+                  feugait, ad quas similique eos. Meis iriure id eos, an his
+                  wisi labitur.
+                </p>
+                <a href="#" class="btn btn-primary">Booking Now</a>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="image/slide-4.jpeg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption">
+                <h5>Bilury Royal Resort</h5>
+                <p>
+                  Ut amet omittam pri. Natum oportere abhorreant pri no, vis ei
+                  feugait vulputate, ea imperdiet constituam his. Est at laudem
+                  feugait, ad quas similique eos. Meis iriure id eos, an his
+                  wisi labitur.
+                </p>
+                <a href="#" class="btn btn-primary">Booking Now</a>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <div class="contact-us-resort">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="content text-center">
+                <h2 class="heading-h2">
+                  Royal Resort - A Luxury Resort In Didwana
+                </h2>
+                <p class="text-white">
+                  12 Mile, Vatika Mod, Tonk Road, Jaipur, Rajasthan, India
+                  303905
+                </p>
+                <ul
+                  class="list-unstyled m-0 d-flex flex-wrap align-items-center justify-content-center"
+                >
+                  <li>
+                    <a href="#" class="text-decoration-none"
+                      ><i class="fa-solid fa-phone"></i> <span>+91 141 4587985</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none"
+                      ><i class="fa-brands fa-whatsapp"></i> <span>+91 141 4587985</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none"
+                      ><i class="fa-solid fa-envelope"></i>
+                    <span>royalresort@gmail.com</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="about-sec p-common" id="about">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="image mb-3 mb-lg-0">
+                <img src="image/about-us-image.png" class="img-fluid" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="content m-lg-3">
+                <div class="heading">
+                  <small>Welcome to</small>
+                  <h2 class="heading-h2">Royal Resort</h2>
+                  <p class="peragraf">
+                    Id vel nostrud maiorum, quo ad quidam perfecto. Mea justo
+                    dicta accusata no, te has aeque dolores repudiare, his etiam
+                    pericula id. Utinam quaestio philosophia eos in, eu eam
+                    offendit laboramus intellegebat, cu est quis officiis. Est
+                    dictas legendos scribentur an. Vis ei tation iisque
+                    suscipit, vim id tota dolores hendrerit. Eu molestie
+                    reprehendunt mea, ea legimus molestiae cum, partem iracundia
+                    delicatissimi cum te.
+                  </p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services-sec pb-60" id="service">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="heading text-center">
+                <h2 class="heading-h2">Facilities & services</h2>
+                <p>Scriptorem per nibh euripidis usu. Magna feugiat in nec.</p>
+              </div>
+
+              <!-- Swiper -->
+              <div class="swiper serviceSwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <a href="#">
+                        <img
+                          src="image/whatsapp-icon.svg"
+                          class="img-fluid wp-icon"
+                          alt=""
+                        />
+
+                        <img
+                          src="image/marriage-gareden.jpg"
+                          class="img-fluid card_img"
+                          alt=""
+                        />
+                        <div class="card-body">
+                          <h4>Marriage Garden</h4>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card">
+                      <a href="#">
+                        <img
+                          src="image/whatsapp-icon.svg"
+                          class="img-fluid wp-icon"
+                          alt=""
+                        />
+
+                        <img
+                          src="image/party-hall.jpg"
+                          class="img-fluid card_img"
+                          alt=""
+                        />
+                        <div class="card-body">
+                          <h4>Party Hall</h4>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <a href="#">
+                        <img
+                          src="image/whatsapp-icon.svg"
+                          class="img-fluid wp-icon"
+                          alt=""
+                        />
+
+                        <img
+                          src="image/birthday-party-celebration.webp"
+                          class="img-fluid card_img"
+                          alt=""
+                        />
+                        <div class="card-body">
+                          <h4>Birthday party celebration</h4>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card">
+                      <a href="#">
+                        <img
+                          src="image/whatsapp-icon.svg"
+                          class="img-fluid wp-icon"
+                          alt=""
+                        />
+
+                        <img
+                          src="image/restaurants.webp"
+                          class="img-fluid card_img"
+                          alt=""
+                        />
+                        <div class="card-body">
+                          <h4>Restaurant</h4>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <a href="#">
+                        <img
+                          src="image/whatsapp-icon.svg"
+                          class="img-fluid wp-icon"
+                          alt=""
+                        />
+
+                        <img
+                          src="image/5-star-room.jpg"
+                          class="img-fluid card_img"
+                          alt=""
+                        />
+                        <div class="card-body">
+                          <h4>5 Star Room</h4>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card">
+                      <a href="#">
+                        <img
+                          src="image/whatsapp-icon.svg"
+                          class="img-fluid wp-icon"
+                          alt=""
+                        />
+
+                        <img
+                          src="image/water-park.jpg"
+                          class="img-fluid card_img"
+                          alt=""
+                        />
+                        <div class="card-body">
+                          <h4>Water Park</h4>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <a href="#">
+                        <img
+                          src="image/whatsapp-icon.svg"
+                          class="img-fluid wp-icon"
+                          alt=""
+                        />
+
+                        <img
+                          src="image/12d-cinema-hall.jpg"
+                          class="img-fluid card_img"
+                          alt=""
+                        />
+                        <div class="card-body">
+                          <h4>12D Cinema Hall</h4>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card">
+                      <a href="#">
+                        <img
+                          src="image/whatsapp-icon.svg"
+                          class="img-fluid wp-icon"
+                          alt=""
+                        />
+
+                        <img
+                          src="image/hunter-house.jpg"
+                          class="img-fluid card_img"
+                          alt=""
+                        />
+                        <div class="card-body">
+                          <h4>Hunter House</h4>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card">
+                      <a href="#">
+                        <img
+                          src="image/whatsapp-icon.svg"
+                          class="img-fluid wp-icon"
+                          alt=""
+                        />
+
+                        <img
+                          src="image/anniversary-celebration.webp"
+                          class="img-fluid card_img"
+                          alt=""
+                        />
+                        <div class="card-body">
+                          <h4>Aniversary Celebration</h4>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="card">
+                      <a href="#">
+                        <img
+                          src="image/whatsapp-icon.svg"
+                          class="img-fluid wp-icon"
+                          alt=""
+                        />
+
+                        <img
+                          src="image/hunter-house.jpg"
+                          class="img-fluid card_img"
+                          alt=""
+                        />
+                        <div class="card-body">
+                          <h4>Hunter House</h4>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+
+              <!-- Swiper JS -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gallery-sec pt-60" id="gallery">
+        <div class="container-fluid px-0">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="heading text-center">
+                <h2 class="heading-h2">Gallery</h2>
+                <p>Scriptorem per nibh euripidis usu. Magna feugiat in nec.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="gallery-grid">
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="image/slide-1.jpg" class="glightbox3">
+                      <img src="image/slide-1.jpg" alt="image" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="image/slide-2.jpg" class="glightbox3">
+                      <img src="image/slide-2.jpg" alt="image" />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="image/slide-3.jpg"
+                      class="glightbox3"
+                    >
+                      <img
+                        src="image/slide-3.jpg"
+                        alt="image"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="image/slide-4.jpeg" class="glightbox3">
+                      <img src="image/slide-4.jpeg" alt="image" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="image/slide-5.jpg" class="glightbox3">
+                      <img src="image/slide-5.jpg" alt="image" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="image/slide-6.jpg" class="glightbox3">
+                      <img src="image/slide-6.jpg" alt="image" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="image/slide-7.jpg" class="glightbox3">
+                      <img src="image/slide-7.jpg" alt="image" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="image/slide-8.jpg" class="glightbox3">
+                      <img src="image/slide-8.jpg" alt="image" />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="image/slide-9.jpg"
+                      class="glightbox3"
+                    >
+                      <img
+                        src="image/slide-9.jpg"
+                        alt="image"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="image/slide-10.jpg" class="glightbox3">
+                      <img src="image/slide-10.jpg" alt="image" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="image/slide-11.jpg" class="glightbox3">
+                      <img src="image/slide-11.jpg" alt="image" />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="image/slide-12.jpg"
+                      class="glightbox3"
+                    >
+                      <img
+                        src="image/slide-12.jpg"
+                        alt="image"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="image/slide-13.jpg" class="glightbox3">
+                      <img src="image/slide-13.jpg" alt="image" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="image/slide-14.jpg" class="glightbox3">
+                      <img src="image/slide-14.jpg" alt="image" />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="image/slide-15.jpg"
+                      class="glightbox3"
+                    >
+                      <img
+                        src="image/slide-15.jpg"
+                        alt="image"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="image/slide-16.jpg" class="glightbox3">
+                      <img src="image/slide-16.jpg" alt="image" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="image/slide-17.jpeg" class="glightbox3">
+                      <img src="image/slide-17.jpeg" alt="image" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="image/water-park.jpg" class="glightbox3">
+                      <img src="image/water-park.jpg" alt="image" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="image/12d-cinema-hall.jpg" class="glightbox3">
+                      <img src="image/12d-cinema-hall.jpg" alt="image" />
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      href="image/Royel Resort Didwana __ Water Park.mp4"
+                      class="glightbox3"
+                    >
+                      <img
+                        src="image/Royel Resort Didwana __ Water Park.jpg"
+                        alt="image"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+           
+                <div class="text-center mt-4">
+                  <a href="gallery.html" class="btn btn-primary">View More Gallery</a>
+                </div>
+           
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="videos-sec pt-60 pb-60" id="video">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="heading text-center">
+                <h2 class="heading-h2">Our Videos</h2>
+                <p>Scriptorem per nibh euripidis usu. Magna feugiat in nec.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 col-lg-3 col-md-4">
+              <div class="video-card">
+                <iframe
+                  src="https://www.youtube.com/embed/mJsTdPZwdBk"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3 col-md-4">
+              <div class="video-card">
+                <iframe
+                  src="https://www.youtube.com/embed/sMNQMj7OlTk"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3 col-md-4">
+              <div class="video-card">
+                <iframe
+                  src="https://www.youtube.com/embed/cXG0rEdABbM"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3 col-md-4">
+              <div class="video-card">
+                <iframe
+                  src="https://www.youtube.com/embed/gPGfsJNzBU8"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3 col-md-4">
+              <div class="video-card">
+                <iframe
+                  src="https://www.youtube.com/embed/mJsTdPZwdBk"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3 col-md-4">
+              <div class="video-card">
+                <iframe
+                  src="https://www.youtube.com/embed/sMNQMj7OlTk"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3 col-md-4">
+              <div class="video-card">
+                <iframe
+                  src="https://www.youtube.com/embed/cXG0rEdABbM"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3 col-md-4">
+              <div class="video-card">
+                <iframe
+                  src="https://www.youtube.com/embed/gPGfsJNzBU8"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="col-md-12 mt-2">
+              <div class="text-center">
+                <a href="video.html" class="btn btn-primary">View More Videos</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ourblog-sec pb-60" id="blog">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="heading text-center">
+                <h2 class="heading-h2">Explore more</h2>
+                <p>Equip yourself with useful knowledge.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="image/piscina-principal-en.jpg"
+                    class="img-fluid w-100"
+                    alt=""
+                  />
+                  <h4>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Ab, Lorem Lorem
+                  </h4>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="image/pexels-photo-258154.jpeg"
+                    class="img-fluid w-100"
+                    alt=""
+                  />
+                  <h4>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Ab, Lorem Lorem
+                  </h4>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <a href="#">
+                  <img
+                    src="image/pexels-photo-1450363.jpeg"
+                    class="img-fluid w-100"
+                    alt=""
+                  />
+                  <h4>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Ab, Lorem Lorem
+                  </h4>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-12 mt-2">
+              <div class="text-center">
+                <a href="#" class="btn btn-primary">View More Blogs</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-us-sec p-common" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="address">
+                <div class="heading">
+                  <h2 class="heading-h2">Address</h2>
+                </div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57137.18644528025!2d74.61252431442612!3d26.485557205500875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396be8624f50868f%3A0x8684baa5ffdfeab7!2sLawrence%20and%20Mayo%20Public%20School!5e0!3m2!1sen!2sin!4v1653994550361!5m2!1sen!2sin"
+                  width="100%"
+                  height="100%"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+                <address>
+                  <dl>
+                    <dt class="text1">
+                      Sikar Road, Daulatpura ( Didwana )
+                    </dt>
+                    <dd>
+                      <span>Telephone:</span>
+                      <a href="tel:1254896589">1254896589</a>
+                    </dd>
+
+                    <dd>
+                      <span>E-mail:</span>
+
+                      <a href="mailto:xxxxxxxxxxxxxx@gmail.com" class="link-1"
+                        >xxxxxxxxxxxxxx@gmail.com</a
+                      >
+                    </dd>
+                    <dd>
+                      <span>Timing:</span>
+
+                      <a href="javascript:void(0)" class="link-1"
+                        >7:00 AM to 7:00 PM</a
+                      >
+                    </dd>
+                    <dd>
+                      <span>Fee:</span>
+
+                      <a href="javascript:void(0)" class="link-1"
+                        >₹500 one person one hour</a
+                      >
+                    </dd>
+                  </dl>
+                </address>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="contact-us">
+                <div class="heading">
+                  <h2 class="heading-h2">Contact Form</h2>
+                </div>
+                <form action="">
+                  <div class="mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Name:"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Email:"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Phone:"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <textarea
+                      class="form-control"
+                      rows="3"
+                      placeholder="Message:"
+                    ></textarea>
+                  </div>
+                  <div class="mb-3">
+                    <button type="submit" class="btn btn-primary">
+                      Submit
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer ">
+      <div class="footer-container pt-60 pb-60">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="footer-card">
+              <a class="navbar-brand d-block" href="#">
+                <img src="image/footer-logo.png" class="img-fluid" alt="">
+              </a>
+              <p>We Offer Best Service To Our Customer All You Need Is @ One Place Royal Resorts Waterpark Poll, Roof Cafe, Party Hall, Garden Etc Everything You need Is Here..</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="footer-card">
+              <h5>Navigation</h5>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul class="list-unstyled">
+        
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                   
+    
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul class="list-unstyled">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="disclaimer.html">Disclaimer</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms-and-conditions.html">Terms</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+    
+                  </ul>
+                </div>
+                
+
+              </div>
+
+            
+
+
+              </div>
+          </div>
+       
+          <div class="col-lg-3">
+            <div class="footer-card">
+              <h5>Get Regular Updates</h5>
+              <ul class="list-unstyled social-card">
+                <li><a href="#"><i class="fa-brands fa-whatsapp "></i>WhatsApp</a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube "></i>YouTube </a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook-f "></i>Facebook</a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram "></i>Instagram</a></li>
+              
+
+              </ul>
+
+
+              </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="footer-card">
+              <h5>Get in Touch</h5>
+              <ul class="list-unstyled social-card">
+                <li><a href="#"><i class="fa-solid fa-phone"></i>4587236589</a></li>
+                <li><a href="#"><i class="fa-regular fa-envelope"></i>jfjjdkkuyrtxxxxxm@gmail.com </a></li>
+                <li><a href="#"><i class="fa-solid fa-location-dot"></i>Sikar Road, Daulatpura ( Didwana )</a></li>
+                
+              </ul>
+
+
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card-column">
+              <small>©2023 <a href="#">Royal Resort Didwana.</a> All rights reserved</small> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="callbook" class="mobile-call">
+   
+      </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/glightbox.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
